@@ -1,3 +1,15 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bgImg{
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image:url('../assets/wave-1.svg'),url('../assets/wave-2.svg'),url('../assets/wave.svg');
+}
+
+.cusBtn{
+    @apply py-2 px-10 bg-primary tracking-wide uppercase
+}

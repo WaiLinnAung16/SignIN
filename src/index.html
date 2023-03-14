@@ -8,20 +8,29 @@
     <title>SignIn</title>
   </head>
   <body>
-    <div class="card w-96 glass">
-      <figure>
-        <img
-          src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-          alt="car!"
-        />
-      </figure>
-      <div class="card-body">
-        <h2 class="card-title">Life hack</h2>
-        <p>How to park your car at your garage?</p>
-        <div class="card-actions justify-end">
-          <button class="btn btn-primary">Learn now!</button>
+    <section class=" flex justify-center items-center h-screen bg-[#fafafa] relative bgImg">
+      <div class="card w-[450px] rounded-md bg-white backdrop-blur-sm bg-opacity-50">
+        <div class="card-body flex flex-col items-center gap-4">
+          <div class=" border-b-2 w-full flex flex-col items-center gap-2 pb-3">
+            <img src="../assets/Icon.png" class=" h-[70px]">
+            <h2 class="card-title text-lg text-primary">The Forward Society</h2>
+          </div>
+          <h1 class="text-2xl">Sign In</h1>
+          <p class=" text-sm">Sign in and start managing your condition</p>
+          <div class="form-control w-full max-w-sm">
+            <input type="text" placeholder="Email" class="input input-bordered w-full" />
+          </div>
+          <div class="form-control w-full max-w-sm">
+            <input type="text" placeholder="Password" class="input input-bordered w-full" />
+          </div>
+          <div class="">
+            <button class="text-white rounded-md cusBtn transition hover:scale-105 active:bg-primary-focus">Sign in</button>
+          </div>
         </div>
       </div>
-    </div>
+      
+    </section>
+    
+    
   </body>
 </html>
